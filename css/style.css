@@ -151,7 +151,9 @@ h2 {
 
     line-height: 1.6;
 }
-
+.texto-oculto.activo {
+    display: block;
+}
 /* CONTACTO */
 .contacto p {
     color: #cccccc;
