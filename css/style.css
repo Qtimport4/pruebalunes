@@ -180,3 +180,18 @@ h2 {
 html {
     scroll-behavior: smooth;
 }
+.proyecto {
+    animation: aparecer 1s ease;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
